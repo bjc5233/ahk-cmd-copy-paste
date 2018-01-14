@@ -5,6 +5,9 @@
 ;  Ctrl + V ==> 粘贴
 ;其他
 ;  第二部分中的mintty是git bash窗口，增加粘贴特性
+;注意
+;  由于Ctrl + C在console中一般用于强制结束命令，因此转为Ctrl + K
+
 
 #SingleInstance,Force
 #IfWinActive ahk_class ConsoleWindowClass
@@ -12,7 +15,7 @@
 SendInput {RButton}S{Enter}
 return
 
-^C::
+^K::
 SendInput {RButton}S{Enter}
 lastLine =
 Loop, parse, Clipboard, `n, `r
