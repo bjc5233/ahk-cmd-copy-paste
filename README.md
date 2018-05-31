@@ -10,11 +10,13 @@
 * Ctrl + C ==> 复制最后一行命令内容
 * Ctrl + V ==> 粘贴
 * Ctrl + Z ==> 删除一个字符
+* Ctrl + L ==> 清屏
 
 
 ### git bash
 * Ctrl + V ==> 粘贴
 * Ctrl + Z ==> 删除一个字符
+* Ctrl + L ==> 清屏
 
 
 ## 注意
