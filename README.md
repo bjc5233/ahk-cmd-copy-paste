@@ -1,8 +1,8 @@
-# ahk-console-copy-paste
+# ahk-console-shortcut
 
 
 ## 说明
-> 终端窗口原始并没有复制粘贴相关快捷键操作, 此脚本增加该特性
+> 增强终端窗口的快捷键支持. 如原始并没有复制粘贴快捷键, 此脚本增加该特性
 
 
 ### cmd console
@@ -11,13 +11,16 @@
 * Ctrl + V ==> 粘贴
 * Ctrl + Z ==> 删除一个字符
 * Ctrl + L ==> 清屏
+* PageUp   ==> 向上滚动窗口
+* PageDn   ==> 向下滚动窗口
 
 
 ### git bash
 * Ctrl + V ==> 粘贴
 * Ctrl + Z ==> 删除一个字符
 * Ctrl + L ==> 清屏
-
+* PageUp   ==> 向上滚动窗口
+* PageDn   ==> 向下滚动窗口
 
 ## 注意
 > 由于Ctrl + C在console中一般用于强制结束命令，因此转为Ctrl + K
